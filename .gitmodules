@@ -1,6 +1,7 @@
 [submodule "archie"]
 	path = archie
 	url = https://github.com/fortytw0/archie.git
-[submodule "themes/--force"]
-	path = themes/--force
-	url = https://github.com/fortytw0/archie.git
+	branch = master
+
+
+
