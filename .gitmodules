@@ -1,7 +1,0 @@
-[submodule "archie"]
-	path = archie
-	url = https://github.com/fortytw0/archie.git
-	branch = master
-
-
-
