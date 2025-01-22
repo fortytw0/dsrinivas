@@ -3,9 +3,18 @@
 
 <div style="overflow-x: auto;height: 440px;"> 
 
-
-
     <div class="terminal-timeline">
+        {% for update in updates %}
+            <div class="terminal-card">
+                <header>{{update.date | safe}}</header>
+                <div>
+                    {{update.text|safe}}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- <div class="terminal-timeline">
         <div class="terminal-card">
             <header>August 22, 2023</header>
             <div>
@@ -71,6 +80,6 @@
                 Computational Linguistics at CU Boulder!
             </div>
         </div>
-    </div>
+    </div> -->
 
 </div>

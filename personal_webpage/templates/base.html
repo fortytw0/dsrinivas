@@ -13,13 +13,13 @@
 
         <br />
 
-        {% include "snippets/abstract-about.html" %}
+        {% include "snippets/abstract-about.html" with introduction=introduction %}
 
-        {% include "snippets/notice-board.html" %}
+        {% include "snippets/notice-board.html" with notice_board=notice_board %}
 
-        {% include "snippets/recent-updates.html" %}
+        {% include "snippets/recent-updates.html" with updates=updates %}
 
-        {% include "snippets/publications.html" %}
+        {% include "snippets/publications.html" with publications=publications%}
     </div>
 </body>
 

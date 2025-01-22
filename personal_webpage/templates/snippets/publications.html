@@ -1,6 +1,35 @@
 <h4 class="mt-3">Publications</h4>
 
+{% for pub in publications %} 
 
+<h6> {{pub.year}} </h6>
+
+    {% for paper in pub.papers %}
+    <p>
+        <strong>{{paper.title|safe}}</strong>
+        {{paper.authors|safe}}
+        <em>{{paper.venue|safe}}</em>
+        {% if paper.github %}
+            <a href="{{paper.github}}" class="social"> <i class="fa-brands fa-github" title="Github Repository"></i> </a>
+        {% endif %}
+        {% if paper.paper %}
+            <a href="{{paper.paper}}" class="social"> <i class="fa-regular fa-file" title="Link to paper"></i> </i></a>
+        {% endif %}
+        
+        {% if paper.arxiv %}
+            <a href="{{paper.arxiv}}" class="social"> <i class="fa-regular fa-file-zipper" title="Link to ArXiv"></i> </a>
+        {% endif %}
+        
+        {% if paper.data %}
+            <a href="{{paper.data}}" class="social"> <i class="fa-solid fa-database" title="Link to data"></i></a>
+        {% endif %}
+        
+    </p>
+    {% endfor %}
+
+
+{% endfor %}
+<!-- 
 <h6> 2023 </h6>
 
 <p>
@@ -28,4 +57,4 @@
     Marie Grace, Jay Seabrum, Dananjay Srinivas, Alexis Palmer
     <br>
     <em>Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations (EACL2023)</em>
-</p>
+</p> -->

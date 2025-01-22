@@ -1,0 +1,21 @@
+[   {"year" : "2023",
+    "papers" : [
+        {"title" : "Discourse Analysis via Questions and Answers: Parsing Dependency Structures of Questions Under Discussion" ,
+        "authors" : "Wei-Jen Ko, Yating Wu, Cutter Dalton, *Dananjay Srinivas*, Greg Durrett, Junyi Jessy Li",
+        "venue" : "Findings of the Association for Computational Linguistics: ACL 2023", 
+        "github" : "http://127.0.0.1:8000/" ,
+        "paper" : "http://127.0.0.1:8000/",
+        "arxiv" : "http://127.0.0.1:8000/",
+        "data" : "http://127.0.0.1:8000/"}
+    ]},
+    {"year" : "2025",
+    "papers" : [
+        {"title" : "Discourse Analysis via Questions and Answers: Parsing Dependency Structures of Questions Under Discussion" ,
+        "authors" : "Wei-Jen Ko, Yating Wu, Cutter Dalton, *Dananjay Srinivas*, Greg Durrett, Junyi Jessy Li",
+        "venue" : "Findings of the Association for Computational Linguistics: ACL 2023", 
+        "github" : "http://127.0.0.1:8000/" ,
+        "paper" : "http://127.0.0.1:8000/"}
+    ]}
+
+    
+]
